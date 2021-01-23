@@ -14,7 +14,7 @@ end
 
 post '/checkout' do
   params[:item] = session['item']
-  @session = session 
+  @session = session
   @session
 end
 
